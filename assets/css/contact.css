@@ -1,0 +1,153 @@
+body {
+    overflow-x: hidden;
+}
+/* NAV */
+nav {
+    width: 100vw;
+    background-color: #FFE614;
+    position: fixed!important;
+    top: 0;
+    z-index: 101;
+}
+
+.nav-logo {
+    width: 120px;
+}
+.nav-item {
+    margin: 5px;
+    padding: 5px 15px !important; 
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #000000 !important;
+    border-bottom: 1px solid transparent;
+    text-transform: uppercase;
+}
+.nav-item:last-child {
+    margin-right: 0px !important;
+}
+.nav-item:hover {
+    border-bottom: 1px solid #141D90;
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+    outline: none;
+}
+/* FOOTER */
+
+footer {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+.social-media {
+    width: 100vw;
+    padding-top: 25px;
+    text-align: center;
+}
+.social-media > svg {
+    padding: 10px;
+    padding-bottom: 0;
+    width: 200px;
+    height: auto;
+}
+#eken {
+    fill: #FFFFFF !important;
+}
+.buttons {
+    color: #FFFFFF;
+}
+.footer-logo {
+    color: #FFFFFF;
+    width: 40px;
+    height: auto;
+}
+.brand-container {
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.brand {
+    font-size: 1.6rem;
+}
+.fab {
+    padding: 10px;
+    font-size: 1.8rem;    
+}
+.fb {
+    color: #FFFFFF;
+}
+.fa-facebook-square:hover {
+    color: #3B5998;
+}
+.youtube {
+    color: #FFFFFF;
+}
+.fa-youtube:hover {
+    color: #FF0000;
+}
+.instagram {
+    color: #FFFFFF;
+}
+.fa-instagram:hover {
+    color: #8A3AB9;
+}
+footer > p {
+    margin-top: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.8rem !important;
+}
+footer > p > a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+footer > p > a:hover {
+    text-decoration: none;
+    color: #FFE614;
+}
+.copy {
+    color: #FFFFFF;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.65rem !important;
+}
+
+/* BREAKPOINTS */
+
+@media only screen and (min-width: 800px) {
+    #eken-site > footer > p {
+            font-size: 1.2rem !important;
+    }
+    #social-media > svg {
+        padding: 10px;
+        padding-bottom: 0;
+        width: 300px;
+        height: auto;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .navbar-nav {
+        margin-right: 20px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .social-media > svg {
+        padding: 10px;
+        padding-bottom: 0;
+        width: 400px;
+        height: auto;
+    }
+    .brand {
+        font-size: 2rem;
+    }
+    footer > p {
+        font-size: 1.2rem !important;
+    }
+    .copy {
+        font-size: 0.9rem !important;
+    }
+}
+}

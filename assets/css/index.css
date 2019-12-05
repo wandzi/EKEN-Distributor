@@ -1,0 +1,290 @@
+body {
+    overflow-x: hidden;
+}
+#eken-site {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100vw;
+    background-color: #FFE614;
+    position: fixed!important;
+    top: 0;
+    z-index: 101;
+}
+
+.nav-logo {
+    width: 120px;
+}
+.nav-item {
+    margin: 5px;
+    padding: 5px 15px !important; 
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #000000 !important;
+    border-bottom: 1px solid transparent;
+    text-transform: uppercase;
+}
+.nav-item:last-child {
+    margin-right: 0px !important;
+}
+.nav-item:hover {
+    border-bottom: 1px solid #141D90;
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+    outline: none;
+}
+.video {
+    padding-top: 55px;
+    width: 100vw;
+    height: 100%;
+    background-size: cover;
+    pointer-events: none;
+}
+
+video::-webkit-media-controls {
+  display: none;
+}
+.position{
+    position: relative;
+}
+.godown {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    visibility: hidden;
+    color: #FFE614;
+    font-size: 40px;
+}
+.news {
+    width: 100vw;
+    margin-top: -7px;
+    padding: 15px 0;
+    background-color: #FFE614; 
+}
+
+.carousel-item > img {
+     height: 200px; 
+     margin: 0 auto !important;
+     cursor: pointer
+}
+.carousel-item > img:focus{
+    transform: scale(1);
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    text-transform: uppercase;
+}
+.carousel-item > .carousel-caption >h5 {
+    font-size: 5rem;
+    color: #A530B1;
+}
+#social {
+    width: 100vw;
+    padding: 30px;
+    color: #FFFFFF;
+    background-color: #141D90;
+    text-align: center;
+}
+#social > h4 {
+    font-size: 1.5rem;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+.hide {
+    display: none;
+}
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; }
+.gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+.gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); 
+}
+
+@media (max-width: 450px) {
+    .gallery {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+        column-width: 100%;
+    }
+}
+@media (max-width: 400px) {
+    .btn.filter {
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+    }
+}
+
+footer {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+#social-media {
+    width: 100vw;
+    padding-top: 25px;
+    text-align: center;
+}
+#social-media > svg {
+    padding: 10px;
+    padding-bottom: 0;
+    width: 200px;
+    height: auto;
+}
+#eken {
+    fill: #FFFFFF !important;
+}
+.buttons {
+    color: #FFFFFF;
+}
+.footer-logo {
+    color: #FFFFFF;
+    width: 40px;
+    height: auto;
+}
+.brand-container {
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.brand {
+    font-size: 1.6rem;
+}
+.fab {
+    padding: 10px;
+    font-size: 1.8rem;    
+}
+.fb {
+    color: #FFFFFF;
+}
+.fa-facebook-square:hover {
+    color: #3B5998;
+}
+.youtube {
+    color: #FFFFFF;
+}
+.fa-youtube:hover {
+    color: #FF0000;
+}
+.instagram {
+    color: #FFFFFF;
+}
+.fa-instagram:hover {
+    color: #8A3AB9;
+}
+footer > p {
+    margin-top: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.8rem !important;
+}
+footer > p > a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+footer > p > a:hover {
+    text-decoration: none;
+    color: #FFE614;
+}
+.copy {
+    color: #FFFFFF;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.55rem !important;
+}
+.show-gallery {
+    display: none;
+}
+.hide-carousel {
+    display: block;
+}
+/* BREAKPOINTS */
+
+@media screen and (min-width: 451px) {
+    .carousel-item > img {
+        height: 250px;
+        width: auto;
+    }
+    .show-gallery {
+        display: block;
+    }
+    .hide-carousel {
+        display: none;
+    }
+@media only screen and (min-width: 800px) {
+    .carousel-item > img {
+        height: 350px;
+        width: auto;
+    }    
+    #social > h4 {
+        font-size: 1.3rem;
+        padding-top: 30px;
+        padding-bottom: 70px;
+    }
+    #eken-site > footer > p {
+        font-size: 1.2rem !important;
+    }
+}
+@media only screen and (min-width: 800px) {
+    #social-media > svg {
+        padding: 10px;
+        padding-bottom: 0;
+        width: 300px;
+        height: auto;
+    }
+}
+@media only screen and (min-width: 900px) {    
+    .godown {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        visibility: visible;
+        color: #FFE614;
+        font-size: 70px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .carousel-item > img {
+        height: 444px;
+        width: auto;
+    }
+    #social-media > svg {
+        padding: 10px;
+        padding-bottom: 0;
+        width: 400px;
+        height: auto;
+    }
+    .brand {
+        font-size: 2rem;
+    }
+    #social > h4 {
+        font-size: 2.3rem;
+        padding-top: 65px;
+        padding-bottom: 90px;
+    }
+    #eken-site > footer > p {
+        font-size: 1.2rem !important;
+    }
+    .copy {
+        font-size: 0.9rem !important;
+    }
+}

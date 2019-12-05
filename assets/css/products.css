@@ -1,0 +1,455 @@
+body {
+    overflow-x: hidden;
+}
+nav {
+    width: 100vw;
+    background-color: #FFE614;
+    position: fixed!important;
+    top: 0;
+    z-index: 101;
+}
+
+.nav-logo {
+    width: 120px !important;
+    max-width: none;
+}
+.nav-item {
+    margin: 5px;
+    padding: 5px 15px !important; 
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #000000 !important;
+    border-bottom: 1px solid transparent;
+    text-transform: uppercase;
+}
+.nav-item:last-child {
+    margin-right: 0px !important;
+}
+.nav-item:hover {
+    border-bottom: 1px solid #141D90;
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+    outline: none;
+}
+.section-heading {
+    padding-top: 110px;
+    padding-bottom: 60px;
+    font-weight: 300;
+    font-size: 2rem;
+    color: #004190;
+}
+
+.row {
+    justify-content: center;
+}
+#product .product-item {
+  right: 0;
+  margin: 0 0 15px;
+  outline: none; 
+}
+
+#product .product-item .product-link {
+  position: relative;
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+  cursor: pointer;
+  outline: none;
+}
+
+#product .product-item .product-link .product-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background: rgba(0, 65, 144, 0.8);
+}
+
+
+#product .product-item .product-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  background-color: #fff;
+}
+
+#product .product-item .product-caption h4 {
+  margin: 0;
+  text-transform: none;
+}
+
+#product .product-item .product-caption p {
+  font-size: 16px;
+  font-style: italic;
+  margin: 0;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#product * {
+  z-index: 2;
+}
+
+@media (min-width: 767px) {
+  #product .product-item {
+    margin: 0 0 30px;
+  }
+}
+
+.product-modal {
+  padding-right: 0px !important;
+}
+
+.product-modal .modal-dialog {
+  margin: 1rem;
+  max-width: 100vw;
+}
+
+.product-modal .modal-content {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.product-modal .modal-content h2 {
+  font-size: 2rem;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+
+.product-modal .modal-content p {
+  margin-bottom: 30px;
+}
+
+.product-modal .modal-content p.item-intro {
+  font-size: 16px;
+  font-style: italic;
+  margin: 20px 0 30px;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.product-modal .modal-content ul.list-inline {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.product-modal .modal-content button {
+  cursor: pointer;
+}
+
+.product-modal .close-modal {
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  background-color: transparent;
+  transform: scale(0.5);
+  z-index: 10;
+}
+
+.product-modal .close-modal:hover {
+  opacity: 0.3;
+}
+
+.product-modal .close-modal .lr {
+  /* Safari and Chrome */
+  z-index: 1051;
+  width: 1px;
+  height: 75px;
+  margin-left: 35px;
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: #212529;
+}
+
+.product-modal .close-modal .lr .rl {
+  /* Safari and Chrome */
+  z-index: 1052;
+  width: 1px;
+  height: 75px;
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  background-color: #212529;
+}
+
+/* Product Modal */
+#product {
+    padding-top: 90px;
+}
+.product-name {
+    margin-bottom: 30px!important;
+    font-size: 2.3rem !important;
+}
+.pictogram > img {
+    height: 55px;
+    z-index: 50;
+}
+.spec-ul {
+    text-align: left;
+}
+.btn-secondary {
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+.section-product > ul > li {
+    text-align: none;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+.social-media {
+    width: 100vw;
+    padding-top: 25px;
+    text-align: center;
+}
+.social-media > svg {
+    padding: 10px;
+    padding-bottom: 0;
+    width: 200px;
+    height: auto;
+}
+#eken {
+    fill: #FFFFFF !important;
+}
+.buttons {
+    color: #FFFFFF;
+}
+.footer-logo {
+    color: #FFFFFF;
+    width: 40px;
+    height: auto;
+}
+.brand-container {
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.brand {
+    font-size: 1.6rem;
+}
+.fab {
+    padding: 10px;
+    font-size: 1.8rem;    
+}
+.fb {
+    color: #FFFFFF;
+}
+.fa-facebook-square:hover {
+    color: #3B5998;
+}
+.youtube {
+    color: #FFFFFF;
+}
+.fa-youtube:hover {
+    color: #FF0000;
+}
+.instagram {
+    color: #FFFFFF;
+}
+.fa-instagram:hover {
+    color: #8A3AB9;
+}
+footer > p {
+    margin-top: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.8rem !important;
+}
+footer > p > a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+footer > p > a:hover {
+    text-decoration: none;
+    color: #FFE614;
+}
+.copy {
+    color: #FFFFFF;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.65rem !important;
+}
+
+.carousel {
+    margin-top: 20px;
+}
+.hide {
+    display: block;
+}
+.item .thumb {
+	width: 25%;
+	cursor: pointer;
+	float: left;
+}
+.item .thumb img {
+	width: 100%;
+	margin: 2px;
+}
+.item img {
+	width: 100%;	
+}
+
+/* THUMBNAIL GALLERY */
+
+img {
+  max-width: 55%; }
+
+.preview {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media screen and (max-width: 996px) {
+    .preview {
+      margin-bottom: 20px; } }
+
+.preview-pic {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; }
+
+.preview-thumbnail.nav-tabs {
+  border: none;
+  margin-top: 15px; }
+  .preview-thumbnail.nav-tabs li {
+    width: 18%;
+    margin-right: 2.5%; }
+    .preview-thumbnail.nav-tabs li img {
+      max-width: 100%;
+      display: block; }
+    .preview-thumbnail.nav-tabs li a {
+      padding: 0;
+      margin: 0; }
+    .preview-thumbnail.nav-tabs li:last-of-type {
+      margin-right: 0; }
+
+.tab-content {
+  overflow: hidden; }
+  .tab-content img {
+    width: 100%;
+    -webkit-animation-name: opacity;
+            animation-name: opacity;
+    -webkit-animation-duration: .3s;
+            animation-duration: .3s; }
+
+
+@-webkit-keyframes opacity {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(3);
+            transform: scale(3); }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(3);
+            transform: scale(3); }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+.preview-thumbnail > li {
+    cursor: pointer;
+}
+.show-gallery {
+    display: none;
+}
+.hide-carousel {
+    display: flex;
+}
+.carousel-item > img{
+    margin: 0 auto !important;
+}
+
+/* BREAKPOINTS */
+@media only screen and (min-width: 430px) {
+    .show-gallery {
+        display: block;
+}
+    .hide-carousel {
+        display: none;
+}
+}
+@media only screen and (min-width: 800px) {
+    #eken-site > footer > p {
+            font-size: 1.2rem !important;
+    }
+    #social-media > svg {
+        padding: 10px;
+        padding-bottom: 0;
+        width: 300px;
+        height: auto;
+    }
+    .modal-body > .product-name {
+        font-size: 2.7rem !important;
+        font-weight: 400;
+        padding-bottom: 30px;
+    }
+    .section-product {
+        padding-top: 25px;
+        
+    }
+}
+@media only screen and (min-width: 890px) {
+    
+}
+@media only screen and (min-width: 1000px) {
+    .navbar-nav {
+        margin-right: 20px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .lastcircle {
+        font-size: 1.4rem;
+        line-height: inherit;
+    }
+    .social-media > svg {
+        padding: 10px;
+        padding-bottom: 0;
+        width: 400px;
+        height: auto;
+    }
+    .brand {
+        font-size: 2rem !important;
+    }
+    #social > h4 {
+        font-size: 2.3rem;
+        padding-top: 40px;
+        padding-bottom: 90px;
+    }
+    footer > p {
+        font-size: 1.2rem !important;
+    }
+    .copy {
+        font-size: 0.9rem !important;
+    }
+}
